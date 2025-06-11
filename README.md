@@ -1,2 +1,1 @@
-# -
-选校砖家小程序
+"# xuanxiaozhuanjia" 
