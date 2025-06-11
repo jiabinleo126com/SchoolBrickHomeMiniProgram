@@ -1,0 +1,432 @@
+{
+	"lazyCodeLoading": "requiredComponents",
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#C2D4FF",
+				"backgroundColor": "#C2D4FF",
+				"backgroundColorBottom": "#F3F3F7"
+			}
+		},
+		{
+			"path": "pages/school/index",
+			"style": {
+				"navigationBarTitleText": "学校列表"
+			}
+		},
+		{
+			"path": "pages/choose/index",
+			"style": {
+				"navigationBarTitleText": "地图择校",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#C2D4FF",
+				"backgroundColor": "#C2D4FF",
+				"backgroundColorBottom": "#F3F3F7",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/info/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"subpackages": [
+		{
+			"root": "huodong",
+			"name": "huodong",
+			"pages": [
+				{
+					"path": "pages/huodong/index",
+					"style": {
+						"navigationBarTitleText": "活动专区"
+					}
+				},
+				{
+					"path": "pages/detail/index",
+					"style": {
+						"navigationBarTitleText": "活动详情"
+					}
+				},
+				{
+					"path": "pages/form/index",
+					"style": {
+						"navigationBarTitleText": "活动预约"
+					}
+				},
+				{
+					"path": "pages/status/index",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}
+			]
+		},
+		{
+			"root": "guide",
+			"name": "guide",
+			"pages": [
+				{
+					"path": "pages/guide/index",
+					"style": {
+						"navigationBarTitleText": "新手教程",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "school",
+			"name": "school",
+			"pages": [
+				{
+					"path": "pages/schoolsearch/index",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/schooldetail/index",
+					"style": {
+						"navigationBarTitleText": "学校详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/form/index",
+					"style": {
+						"navigationBarTitleText": "预约探校",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/album/index",
+					"style": {
+						"navigationBarTitleText": "学校相册",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/characteristic/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/profile/index",
+					"style": {
+						"navigationBarTitleText": "学校简介",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/search/index",
+					"style": {
+						"navigationBarTitleText": "搜索"
+					}
+				},
+				{
+					"path": "pages/location/index",
+					"style": {
+						"navigationBarTitleText": "城市定位"
+					}
+				}
+			]
+		},
+		{
+			"root": "info",
+			"name": "info",
+			"pages": [
+				{
+					"path": "pages/detail/index",
+					"style": {
+						"navigationBarTitleText": "资讯详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/topic/index",
+					"style": {
+						"navigationBarTitleText": "更多话题",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/list/index",
+					"style": {
+						"navigationBarTitleText": "话题文章",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "my",
+			"name": "my",
+			"pages": [
+				{
+					"path": "pages/huodong/index",
+					"style": {
+						"navigationBarTitleText": "活动预约",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/tanxiao/index",
+					"style": {
+						"navigationBarTitleText": "探校预约",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/collection/index",
+					"style": {
+						"navigationBarTitleText": "我的收藏",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/follow/index",
+					"style": {
+						"navigationBarTitleText": "我的关注",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/record/index",
+					"style": {
+						"navigationBarTitleText": "浏览记录",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/huodongdetail/index",
+					"style": {
+						"navigationBarTitleText": "预约详情",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/tanxiaodetail/index",
+					"style": {
+						"navigationBarTitleText": "探校详情",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/children/index",
+					"style": {
+						"navigationBarTitleText": "孩子信息",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/childrenupdate/index",
+					"style": {
+						"navigationBarTitleText": "孩子信息",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/about/index",
+					"style": {
+						"navigationBarTitleText": "关于我们",
+						"enablePullDownRefresh": false,
+						"backgroundColorBottom": "#f3f3f7",
+						"backgroundColor": "#f3f3f7"
+					}
+				},
+				{
+					"path": "pages/contact/index",
+					"style": {
+						"navigationBarTitleText": "联系我们",
+						"enablePullDownRefresh": false,
+						"backgroundColorBottom": "#f3f3f7",
+						"backgroundColor": "#f3f3f7"
+					}
+				},
+				{
+					"path": "pages/business/index",
+					"style": {
+						"navigationBarTitleText": "商务合作",
+						"enablePullDownRefresh": false,
+						"backgroundColorBottom": "#f3f3f7",
+						"backgroundColor": "#f3f3f7"
+					}
+				},
+				{
+					"path": "pages/dynamic/index",
+					"style": {
+						"navigationBarTitleText": "我的动态",
+						"enablePullDownRefresh": false,
+						"backgroundColorBottom": "#f3f3f7",
+						"backgroundColor": "#f3f3f7"
+					}
+				},
+				{
+					"path": "pages/usermsg/index",
+					"style": {
+						"navigationBarTitleText": "编辑资料"
+					}
+				}
+			]
+		},
+		{
+			"root": "tools",
+			"name": "tools",
+			"pages": [
+				{
+					"path": "pages/getPhone/index",
+					"style": {
+						"navigationBarTitleText": "活动",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/getUsername/index",
+					"style": {
+						"navigationBarTitleText": "活动",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/getPhone_pt/index",
+					"style": {
+						"navigationBarTitleText": "活动",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/getUsername_pt/index",
+					"style": {
+						"navigationBarTitleText": "活动",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/getPhone_common/index",
+					"style": {
+						"navigationBarTitleText": "活动",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/getUsername_common/index",
+					"style": {
+						"navigationBarTitleText": "活动",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/getStatus_common/index",
+					"style": {
+						"navigationBarTitleText": "活动",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"backgroundColor": "#FFFFFF",
+						"backgroundColorBottom": "#FFFFFF",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#3060FB",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/组 809@2x.png",
+				"selectedIconPath": "static/组 810@2x.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/school/index",
+				"iconPath": "static/组 806@2x.png",
+				"selectedIconPath": "static/组 811@2x.png",
+				"text": "学校"
+			},
+			{
+				"pagePath": "pages/choose/index",
+				"iconPath": "static/组 942@2x.png",
+				"selectedIconPath": "static/组 943@2x.png",
+				"text": "地图"
+			},
+			{
+				"pagePath": "pages/info/index",
+				"iconPath": "static/组 807@2x.png",
+				"selectedIconPath": "static/组 812@2x.png",
+				"text": "资讯"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/组 808@2x.png",
+				"selectedIconPath": "static/组 813@2x.png",
+				"text": "我的"
+			}
+		]
+	}
+}
